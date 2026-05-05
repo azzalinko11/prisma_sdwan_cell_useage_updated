@@ -16,10 +16,10 @@ This script can be used to update settings on one or more sites across one or mo
 
 
 ### Requirements
-* Active CloudGenix Account
+* SCM Account
 * Python >=3.6
 * Python modules:
-    * CloudGenix Python SDK >= 6.0.1b1 - <https://github.com/CloudGenix/sdk-python>
+    * Prisma SASE SDK
 * ProgressBar2
 
 ### License
