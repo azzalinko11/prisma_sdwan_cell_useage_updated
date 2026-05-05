@@ -10,7 +10,7 @@ It update the following settings for the circuit:
 - Turn off controller connections
 - Set VPN keepalives interval to 1740000 seconds
 - Set keepalive failure count to 3
-- Turn off Bandwidth monitoring
+- Turn off bandwidth monitoring
 
 This script can be used to update settings on one or more sites across one or more circuit labels
 
@@ -21,6 +21,7 @@ This script can be used to update settings on one or more sites across one or mo
 * Python modules:
     * Prisma SASE SDK
 * ProgressBar2
+* updating of the prismasase_settngs.py with your SCM API credentials
 
 ### License
 MIT
