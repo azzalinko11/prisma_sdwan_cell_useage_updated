@@ -7,7 +7,7 @@ This script can be used to update circuit settings to minimize cellular usage.
 
 It update the following settings for the circuit:
 - Turn off application reachability probes
-- Turn off controller connections
+- Turn ON controller connections
 - Set VPN keepalives interval to 1740000 seconds
 - Set keepalive failure count to 3
 - Turn off bandwidth monitoring
