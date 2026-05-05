@@ -50,7 +50,7 @@ Update settings for all sites for multiple labels:
 
 ### Help Text:
 ```angular2
-Tanushrees-MacBook-Pro:cellularusage tanushreekamath$ ./cellularusage.py -h
+Aarons-MB:cellularusage aratcliffe$ ./cellularusage.py -h
 usage: cellularusage.py [-h] [--print-lower] [--controller CONTROLLER] [--email EMAIL] [--password PASSWORD] [--insecure] [--noregion] [--sdkdebug SDKDEBUG] [--sitename SITENAME] [--label LABEL]
 
 Minimize Cellular Usage (v1.0)
@@ -92,7 +92,7 @@ Config:
                         Name of the Site. Or use keyword ALL_SITES
   --label LABEL, -L LABEL
                         Circuit Label to minimize cellular usage on. Provide one or more circuit labels or use the keyword ALL_LABELS
-Tanushrees-MacBook-Pro:cellularusage tanushreekamath$ 
+
 
 
 ```
