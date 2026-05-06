@@ -21,7 +21,6 @@ sdk.interactive.login_secret(
     tsg_id=prismasase_settings.scope
 )
 
-
 #dics 
 
 site_id_name = {}
