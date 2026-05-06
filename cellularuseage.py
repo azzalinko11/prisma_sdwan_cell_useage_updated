@@ -247,7 +247,10 @@ def go():
                             swi["use_for_controller_connections"] = True
                             swi["vpnlink_configuration"] = {"keep_alive_failure_count": 3, "keep_alive_interval": 17400}
                             swi["bw_config_mode"] = "manual_bwm_disabled"
+                            swi["bwc_enabled"] = False
+                            swi["lqm_enabled"] = False
 
+                    
                             resp = sdk.put.waninterfaces(site_id=sid, waninterface_id=swi["id"], data=swi)
                             if resp.cgx_status:
                                 print("\tConfigured: WAN Interface: {}".format(cname))
