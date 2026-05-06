@@ -11,6 +11,8 @@ It update the following settings for the circuit:
 - Set VPN keepalives interval to 1740000 seconds
 - Set keepalive failure count to 3
 - Turn off bandwidth monitoring
+- Turn off QoS
+- Turn off LQM
 
 This script can be used to update settings on one or more sites across one or more circuit labels
 
